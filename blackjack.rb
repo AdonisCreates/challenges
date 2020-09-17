@@ -33,7 +33,7 @@ loop do
         break
     else
         puts "Wrong, try again"
-        puts "deal again (d), or quit (q)"
+        puts "try again (d), or quit (q)"
         again = gets.chomp.downcase
         break if again  == "q"
     end
