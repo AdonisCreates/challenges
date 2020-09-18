@@ -6,9 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Model.create({ 
-    { name: "Neo", description: false },
+Character.create([
+
+	{ name: "Neo", description: false },
 	{ name: "Trinity", description: false },
 	{ name: "Morpheus", description: false },
 	{ name: "Agent Smith", description: false },
-})
+
+])
